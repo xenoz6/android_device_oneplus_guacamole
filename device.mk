@@ -41,6 +41,9 @@ PRODUCT_PACKAGES += \
     OPlusSettingsResTarget \
     OPlusSystemUIResTarget
 
+# Overlay Voltage Maintainer
+PRODUCT_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-voltage
+
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 28
 
