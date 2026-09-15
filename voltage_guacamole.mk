@@ -15,6 +15,11 @@ $(call inherit-product, device/oneplus/guacamole/device.mk)
 # Inherit some common Voltage stuff.
 $(call inherit-product, vendor/voltage/config/common_full_phone.mk)
 
+# Voltage
+TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_FACE_UNLOCK_SUPPORTED := true
+EXTRA_UDFPS_ANIMATIONS := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := voltage_guacamole
 PRODUCT_DEVICE := guacamole
