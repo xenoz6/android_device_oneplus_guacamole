@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/ax_init_sun.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ax_init_sun.rc
 
 # High Brightness Mode (HBM)
-HBM_SUPPORTED := false
+HBM_SUPPORTED := true
 HBM_NODE := /sys/class/backlight/panel0-backlight/hbm_mode
 
 # Boot animation
