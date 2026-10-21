@@ -17,10 +17,10 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Rising
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    RisingChipset="Snapdragon 8 Gen 1" \
-    RisingMaintainer="Arman ATI"
+    RisingChipset="Snapdragon 855" \
+    RisingMaintainer="Xenoz"
 
-RISING_MAINTAINER := Arman ATI
+RISING_MAINTAINER := Xenoz
 
 # Blur
 TARGET_ENABLE_BLUR := true
