@@ -15,6 +15,16 @@ $(call inherit-product, device/oneplus/guacamole/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Axion Stuff
+AXION_CAMERA_REAR_INFO := 48,8,16
+AXION_CAMERA_FRONT_INFO := 16
+AXION_MAINTAINER := Xenoz
+AXION_PROCESSOR := Snapdragon_855
+TARGET_ENABLE_BLUR := true
+TARGET_INCLUDE_AXFX := false
+TARGET_INCLUDES_LOS_PREBUILTS := true
+TARGET_NEEDS_VULKAN_MEDIA_FIX := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_guacamole
 PRODUCT_DEVICE := guacamole
